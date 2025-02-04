@@ -17,3 +17,21 @@ En este desafío, desarrollarás una aplicación que permita a los usuarios ingr
 4. Una vez que todos los nombres estén en la lista, haz clic en el botón **"Sortear Amigo"** para seleccionar un nombre al azar.
 
 ¡Diviértete con tu sorteo de amigo secreto!
+
+## Instalación
+
+Para instalar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
+
+1. Clona el repositorio:
+  ```bash
+  git clone https://github.com/lgoenaga/amigo_secreto
+  ```
+2. Navega al directorio del proyecto:
+  ```bash
+  cd amigo_secreto
+  ```
+
+## Demo
+
+Puedes ver una demo de la aplicación en funcionamiento en el siguiente enlace: [GitHub Pages](https://lgoenaga.github.io/amigo_secreto/)
+  
