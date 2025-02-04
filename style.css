@@ -93,6 +93,13 @@ body {
     font-size: 1rem;
 }
 
+.mensaje {
+    color: red;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    margin-top: 0.625rem;
+}
+
 .button-container {
     width: 18.75rem;
     justify-content: center;
