@@ -23,9 +23,19 @@ function agregarAmigo() {
   amigos.push(nombre);
   input.value = "";
   console.log(amigos);
-  
 
   //mostrar el nombre en el elemento con id "listaAmigos"
+  mostrarAmigos();
+
+}
+
+function mostrarAmigos() {
+  
+  if (amigos.length === 0) {
+    document.getElementById("mensaje").innerText = "No hay amigos para mostrar.";
+    return;
+  }
+
   const listaAmigos = document.getElementById("listaAmigos");
   listaAmigos.innerHTML = "";
   amigos.forEach((amigo) => {
@@ -33,7 +43,6 @@ function agregarAmigo() {
     li.innerText = amigo;
     listaAmigos.appendChild(li);
   });
-
 }
 
 function verificarAmigoExistente(nombre) {

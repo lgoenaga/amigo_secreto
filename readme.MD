@@ -18,6 +18,17 @@ En este desafío, desarrollarás una aplicación que permita a los usuarios ingr
 
 ¡Diviértete con tu sorteo de amigo secreto!
 
+## Funciones Utilizadas
+
+- **agregarAmigo()**: Esta función se encarga de agregar un nombre a la lista de amigos.
+- **verificarAmigoExistente()**: Valida que el campo de texto no esté vacío antes de agregar un nombre.
+- **mostrarAmigos()**: Muestra la lista actualizada de nombres en la página.
+- **sortearAmigo()**: Realiza el sorteo aleatorio y muestra el nombre del amigo secreto seleccionado.
+
+## Responsividad
+
+La aplicación está diseñada para ser completamente responsive, lo que significa que se adapta a diferentes tamaños de pantalla y dispositivos, proporcionando una experiencia de usuario óptima tanto en computadoras de escritorio como en dispositivos móviles.
+
 ## Instalación
 
 Para instalar y ejecutar este proyecto en tu máquina local, sigue estos pasos:
