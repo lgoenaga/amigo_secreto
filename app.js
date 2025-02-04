@@ -39,3 +39,19 @@ function agregarAmigo() {
 function verificarAmigoExistente(nombre) {
   return amigos.includes(nombre);
 }
+
+function sortearAmigo() {
+  console.log(amigos.length);
+  
+  if (amigos.length < 3) {
+    console.log("No hay suficientes amigos para sortear.");
+    
+    document.getElementById("mensaje").innerText = "No hay suficientes amigos para sortear.";
+    return;
+  }
+
+  const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+  const amigoSorteado = amigos[indiceAleatorio];
+
+  document.getElementById("resultado").innerText = `Amigo sorteado: ${amigoSorteado}`;
+}
